@@ -4,8 +4,6 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "soft-red": "hsl(7, 99%, 70%)",
-        yellow: "hsl(51, 100%, 49%)",
         "dark-desaturated-cyan": "hsl(167, 40%, 24%)",
         "dark-blue": "hsl(198, 62%, 26%)",
         "dark-moderate-cyan": "hsl(168, 34%, 41%)",
@@ -14,6 +12,7 @@ module.exports = {
         "dark-grayish-blue": "hsl(232, 10%, 55%)",
         "grayish-blue": "hsl(210, 4%, 67%)",
         footer: "#90d4c5",
+        "footer-content": "#2c7566",
       },
       fontFamily: {
         sans: "'Barlow', sans-serif",

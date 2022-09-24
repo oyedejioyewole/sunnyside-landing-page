@@ -7,19 +7,31 @@ const toggleNavigation = useToggle(navigationOpen);
 
 <template>
   <nav class="p-10 flex justify-between">
-    <NuxtImg src="/images/logo.svg" class="w-44" />
+    <NuxtImg src="/images/logo.svg" class="w-44 text-white" />
 
-    <div class="gap-10 text-white items-center text-lg lg:flex hidden">
+    <div
+      class="gap-10 2xl:gap-16 text-white items-center text-lg lg:flex hidden"
+    >
       <a href="#">About</a><a href="#">Services</a><a href="#">Projects</a>
-      <button class="font-serif py-3 bg-white text-black px-8 rounded-full">
+      <button
+        class="
+          font-serif
+          py-3
+          bg-white
+          text-black
+          px-8
+          rounded-full
+          transition
+          uppercase
+          hover:bg-[#6cd0fe] hover:text-white
+        "
+      >
         Contact
       </button>
     </div>
-    <NuxtImg
-      src="/images/icon-hamburger.svg"
-      class="lg:hidden block cursor-pointer w-10"
-      @click="toggleNavigation()"
-    />
+    <div class="block lg:hidden cursor-pointer text-white">
+      <i class="las la-bars text-3xl" @click="toggleNavigation()"></i>
+    </div>
     <div
       :class="`absolute bg-white w-full flex flex-col ${
         !navigationOpen ? 'hidden' : ''
@@ -29,7 +41,18 @@ const toggleNavigation = useToggle(navigationOpen);
         <a href="#" class="mb-4">About</a>
         <a href="#" class="mb-4">Services</a>
         <a href="#" class="mb-4">Projects</a>
-        <button class="uppercase font-serif p-3 bg-yellow w-48 rounded-full">
+        <button
+          class="
+            uppercase
+            font-serif
+            p-3
+            bg-[#fad400]
+            w-48
+            rounded-full
+            transition
+            hover:opacity-50
+          "
+        >
           Contact
         </button>
       </div>

@@ -52,6 +52,36 @@ Start the development server on [http://localhost:3000](https://localhost:3000)
 npm run dev
 ```
 
+### What I learned
+
+I learnt how to use the `before` modifier to create the custom links
+
+This is the basic style needed for this to work
+
+```css
+.btn-yellow::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: -0.3rem;
+    right: -0.3rem;
+    height: 0.5rem;
+    background-color: hsl(51, 100%, 49%);
+    border-radius: 10rem;
+    opacity: 0.4;
+    transition: 0.4s ease-in-out;
+    z-index: -1;
+}
+```
+
+### Continued development
+
+- Discovering more ways to decorate links using `before` and `after` modifiers
+
+### Useful resources
+
+- [Source code of a completed submission](https://sunnyside-landing-page.vercel.app) - This help me get the idea of how to make the underline
+
 ## Author
 
 - Frontend Mentor - [@OyewoleOyedeji](https://frontendmentor.io/profile/OyewoleOyedeji)

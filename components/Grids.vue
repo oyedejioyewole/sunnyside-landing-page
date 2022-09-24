@@ -32,14 +32,25 @@
             uppercase
             text-2xl
             font-serif
-            underline
-            decoration-4
-            flex
-            justify-center
             lg:block
-            z-10
+            flex
+            mx-auto
+            lg:mx-0
+            relative
+            before:content-['']
+            before:absolute
+            before:bottom-1
+            before:-left-2
+            before:h-3
+            before:bg-[#fad400]
+            before:opacity-40
+            before:transition
+            before:-z-10
+            before:w-44
+            before:rounded-md
+            before:hover:opacity-80
+            w-fit
           "
-          style="text-underline-offset: -8px"
           >Learn more</a
         >
       </div>
@@ -96,11 +107,23 @@
             uppercase
             text-2xl
             font-serif
-            underline
-            decoration-4
             flex
-            justify-center
-            lg:block
+            mx-auto
+            lg:mx-0 lg:block
+            relative
+            before:content-['']
+            before:absolute
+            before:bottom-1
+            before:-left-2
+            before:h-3
+            before:bg-[#fe7867]
+            before:opacity-40
+            before:transition
+            before:-z-10
+            before:w-44
+            before:rounded-md
+            before:hover:opacity-80
+            w-fit
           "
           >Learn more</a
         >
@@ -113,7 +136,7 @@
           lg:w-1/2
           bg-[url('/images/mobile/image-graphic-design.jpg')]
           lg:bg-[url('/images/desktop/image-graphic-design.jpg')]
-          bg-no-repeat bg-cover
+          bg-no-repeat bg-cover bg-center
         "
       >
         <h1
@@ -140,7 +163,7 @@
           lg:w-1/2
           bg-[url('/images/mobile/image-photography.jpg')]
           lg:bg-[url('/images/desktop/image-photography.jpg')]
-          bg-no-repeat bg-cover
+          bg-no-repeat bg-cover bg-center
           py-40
           lg:py-0
         "
