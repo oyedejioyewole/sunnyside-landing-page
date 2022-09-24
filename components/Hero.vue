@@ -21,7 +21,7 @@
         We Are Creatives
       </h1>
       <div class="flex justify-center">
-        <NuxtImg src="/images/icon-arrow-down.svg" />
+        <NuxtImg src="/images/icon-arrow-down.svg" alt="Arrow down" />
       </div>
     </div>
   </section>
