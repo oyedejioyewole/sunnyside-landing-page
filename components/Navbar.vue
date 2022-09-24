@@ -7,7 +7,7 @@ const toggleNavigation = useToggle(navigationOpen);
 
 <template>
   <nav class="p-10 flex justify-between items-center">
-    <NuxtImg src="/images/logo.svg" class="w-44 text-white" />
+    <NuxtImg src="/images/logo.svg" class="w-44" alt="Sunnyside logo" />
 
     <div
       class="

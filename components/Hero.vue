@@ -3,7 +3,7 @@
     class="
       h-screen
       bg-[url('/images/mobile/image-header.jpg')]
-      lg:bg-[url('/images/desktop/image-header.jpg')]
+      md:bg-[url('/images/desktop/image-header.jpg')]
       bg-center bg-no-repeat bg-cover
     "
   >

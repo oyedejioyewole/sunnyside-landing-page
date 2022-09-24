@@ -58,11 +58,13 @@
         format="webp"
         src="/images/desktop/image-transform.jpg"
         class="order-first lg:order-last w-full lg:w-1/2 lg:block hidden"
+        alt="An egg"
       />
       <NuxtImg
         format="webp"
         src="/images/mobile/image-transform.jpg"
         class="order-first lg:order-last w-full lg:w-1/2 lg:hidden"
+        alt="An egg"
       />
     </div>
     <div class="flex flex-col lg:flex-row items-center">
@@ -70,11 +72,13 @@
         format="webp"
         src="/images/desktop/image-stand-out.jpg"
         class="w-full lg:w-1/2 lg:block hidden"
+        alt="A pink cup"
       />
       <NuxtImg
         format="webp"
         src="/images/mobile/image-stand-out.jpg"
         class="w-full lg:w-1/2 lg:hidden"
+        alt="A pink cup"
       />
       <div class="w-1/2 py-16 lg:py-0 lg:px-10 2xl:p-48">
         <h1
@@ -185,12 +189,18 @@
             text-center text-dark-desaturated-cyan
             mb-14
             2xl:mt-50rem
-            mt-[25rem]
+            mt-[27rem]
           "
         >
           Photography
         </h1>
-        <p class="text-xl text-center text-very-dark-desaturated-blue">
+        <p
+          class="
+            text-xl text-center text-very-dark-desaturated-blue
+            lg:px-10
+            px-0
+          "
+        >
           Increase your credibility by getting the most stunning, high-quality
           photos that improve your business image.
         </p>

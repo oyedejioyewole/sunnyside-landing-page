@@ -2,6 +2,23 @@
 
 This is a solution to the [Sunnyside agency landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
+## Table of contents
+
+- [Frontend Mentor - Sunnyside agency landing page solution](#frontend-mentor---sunnyside-agency-landing-page-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+  - [Setup](#setup)
+    - [Starting the development server](#starting-the-development-server)
+    - [What I learned](#what-i-learned)
+    - [Continued development](#continued-development)
+    - [Useful resources](#useful-resources)
+  - [Author](#author)
+
 ## Overview
 
 ### The challenge
@@ -13,12 +30,12 @@ Users should be able to:
 
 ### Screenshot
 
-![4K Preview](preview.jpg)
+![Desktop Preview](design/desktop-preview.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/sunnyside-landing-page-using-tailwindcss-and-nuxt-3-viyMuF30aL)
+- [Live Site URL](https://sunnyside-landing-page-1d36.vercel.app)
 
 ## My process
 
@@ -85,7 +102,7 @@ This is the basic style needed for this to work
 - [Source code of a completed submission](https://sunnyside-landing-page.vercel.app) - This help me get the idea of how to make the underline
 - [How to make shapes with CSS](https://www.youtube.com/watch?v=QY7Rj8aZcZk)
 - [CSS Before and After pseudo elements explained - part two: the content property](https://www.youtube.com/watch?v=xoRbkm8XgfQ)
-- [@codewithsadee GitHub Solution](https://github.com/codewithsadee/sunnyside-agency-landing-page)
+- [@codewithsadee's GitHub Solution](https://github.com/codewithsadee/sunnyside-agency-landing-page)
 
 ## Author
 

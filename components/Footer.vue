@@ -6,16 +6,25 @@
     <NuxtLink to="/">
       <NuxtImg
         src="/images/logo-footer.svg"
-        class="w-64 mb-10 2xl:mb-20"
+        class="w-40 lg:w-64 mb-10 2xl:mb-20"
         alt="Sunnyside logo"
       />
     </NuxtLink>
     <div class="flex gap-16 lg:gap-10 mb-12 text-[#2c7566]">
-      <a href="#" class="text-xl transition hover:text-white" title="About"
+      <a
+        href="#"
+        class="text-lg md:text-xl transition hover:text-white"
+        title="About"
         >About</a
-      ><a href="#" class="text-xl transition hover:text-white" title="Services"
+      ><a
+        href="#"
+        class="text-lg md:text-xl transition hover:text-white"
+        title="Services"
         >Services</a
-      ><a href="#" class="text-xl transition hover:text-white" title="Projects"
+      ><a
+        href="#"
+        class="text-lg md:text-xl transition hover:text-white"
+        title="Projects"
         >Projects</a
       >
     </div>
@@ -25,7 +34,8 @@
           class="
             lab
             la-facebook
-            text-footer-content text-5xl
+            text-footer-content text-4xl
+            lg:text-5xl
             transition
             hover:text-white
           "
@@ -36,7 +46,8 @@
           class="
             lab
             la-instagram
-            text-footer-content text-5xl
+            text-footer-content text-4xl
+            lg:text-5xl
             transition
             hover:text-white
           "
@@ -47,7 +58,8 @@
           class="
             lab
             la-twitter
-            text-footer-content text-5xl
+            text-footer-content text-4xl
+            lg:text-5xl
             transition
             hover:text-white
           "
@@ -58,7 +70,8 @@
           class="
             lab
             la-pinterest
-            text-footer-content text-5xl
+            text-footer-content text-4xl
+            lg:text-5xl
             transition
             hover:text-white
           "
