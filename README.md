@@ -54,7 +54,7 @@ npm run dev
 
 ### What I learned
 
-I learnt how to use the `before` modifier to create the custom links
+- I learnt how to use the `before` modifier to create the custom links
 
 This is the basic style needed for this to work
 
@@ -74,13 +74,18 @@ This is the basic style needed for this to work
 }
 ```
 
+- I also learnt is how to create shapes using the `pseudo-attributes` like `before` and `after`
+
 ### Continued development
 
-- Discovering more ways to decorate links using `before` and `after` modifiers
+- Discovering more uses for `before` and `after` pseudo-modifiers
 
 ### Useful resources
 
 - [Source code of a completed submission](https://sunnyside-landing-page.vercel.app) - This help me get the idea of how to make the underline
+- [How to make shapes with CSS](https://www.youtube.com/watch?v=QY7Rj8aZcZk)
+- [CSS Before and After pseudo elements explained - part two: the content property](https://www.youtube.com/watch?v=xoRbkm8XgfQ)
+- [@codewithsadee GitHub Solution](https://github.com/codewithsadee/sunnyside-agency-landing-page)
 
 ## Author
 

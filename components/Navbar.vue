@@ -6,11 +6,20 @@ const toggleNavigation = useToggle(navigationOpen);
 </script>
 
 <template>
-  <nav class="p-10 flex justify-between">
+  <nav class="p-10 flex justify-between items-center">
     <NuxtImg src="/images/logo.svg" class="w-44 text-white" />
 
     <div
-      class="gap-10 2xl:gap-16 text-white items-center text-lg lg:flex hidden"
+      class="
+        gap-6
+        lg:gap-10
+        2xl:gap-16
+        text-white
+        items-center
+        text-lg
+        md:flex
+        hidden
+      "
     >
       <a href="#">About</a><a href="#">Services</a><a href="#">Projects</a>
       <button
@@ -29,18 +38,21 @@ const toggleNavigation = useToggle(navigationOpen);
         Contact
       </button>
     </div>
-    <div class="block lg:hidden cursor-pointer text-white">
-      <i class="las la-bars text-3xl" @click="toggleNavigation()"></i>
+    <div class="block md:hidden cursor-pointer text-white">
+      <i
+        :class="`las ${!navigationOpen ? 'la-bars' : 'la-times'} text-3xl`"
+        @click="toggleNavigation()"
+      ></i>
     </div>
     <div
-      :class="`absolute bg-white w-full flex flex-col ${
+      :class="`absolute  bg-white w-1/2 flex flex-col ${
         !navigationOpen ? 'hidden' : ''
-      } top-24 right-8 left-0`"
+      } top-36 w-[78vw] md:hidden left-10 after:absolute after:w-10 after:h-10 after:-top-5 after:-right-[1.88rem] after:rotate-45 after:border-l-white after:border-[30px] after:bg-transparent after:border-r-transparent after:border-t-transparent after:border-b-transparent`"
     >
-      <div class="flex flex-col items-center gap-4 py-16">
-        <a href="#" class="mb-4">About</a>
-        <a href="#" class="mb-4">Services</a>
-        <a href="#" class="mb-4">Projects</a>
+      <div class="flex flex-col items-center gap-4 py-16 text-xl">
+        <a href="#" class="mb-4 text-dark-grayish-blue">About</a>
+        <a href="#" class="mb-4 text-dark-grayish-blue">Services</a>
+        <a href="#" class="mb-6 text-dark-grayish-blue">Projects</a>
         <button
           class="
             uppercase

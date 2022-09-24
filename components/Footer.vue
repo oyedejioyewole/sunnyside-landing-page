@@ -3,11 +3,13 @@
     class="flex flex-col bg-footer justify-center items-center py-10"
     id="footer"
   >
-    <NuxtImg
-      src="/images/logo-footer.svg"
-      class="w-64 mb-10 2xl:mb-20"
-      alt="Sunnyside logo"
-    />
+    <NuxtLink to="/">
+      <NuxtImg
+        src="/images/logo-footer.svg"
+        class="w-64 mb-10 2xl:mb-20"
+        alt="Sunnyside logo"
+      />
+    </NuxtLink>
     <div class="flex gap-16 lg:gap-10 mb-12 text-[#2c7566]">
       <a href="#" class="text-xl transition hover:text-white" title="About"
         >About</a

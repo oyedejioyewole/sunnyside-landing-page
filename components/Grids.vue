@@ -142,17 +142,25 @@
         <h1
           class="
             text-5xl
-            lg:text-6xl
+            lg:text-5xl
+            2xl:text-6xl
             font-serif
             text-center text-dark-desaturated-cyan
             mb-14
             2xl:mt-50rem
-            mt-96
+            mt-[27rem]
           "
         >
           Graphic Design
         </h1>
-        <p class="text-xl text-center text-very-dark-desaturated-blue pb-36">
+        <p
+          class="
+            text-xl text-center text-very-dark-desaturated-blue
+            lg:px-10
+            px-0
+            pb-36
+          "
+        >
           Great design makes you memorable. We deliver artwork that underscores
           your brand message and captures potential clients’ attention.
         </p>
@@ -171,12 +179,13 @@
         <h1
           class="
             text-5xl
-            lg:text-6xl
+            lg:text-5xl
+            2xl:text-6xl
             font-serif
             text-center text-dark-desaturated-cyan
             mb-14
             2xl:mt-50rem
-            mt-96
+            mt-[25rem]
           "
         >
           Photography
