@@ -1,3 +1,11 @@
+<script setup>
+useHead({
+  htmlAttrs: {
+    lang: "en",
+  },
+});
+</script>
+
 <template>
   <div class="relative">
     <Hero />
