@@ -6,7 +6,8 @@
       class="
         uppercase
         font-serif
-        text-grayish-blue text-3xl
+        text-grayish-blue text-3xl text-center
+        md:text-left
         2xl:text-5xl
         mb-0
         2xl:mb-14

@@ -78,7 +78,7 @@
         ></i
       ></NuxtLink>
     </div>
-    <div class="text-xl text-center mt-10 leading-9 text-[#2c7566]">
+    <div class="text-xl text-center mt-10 mb-10 leading-9 text-[#2c7566]">
       Challenge by
       <NuxtLink
         to="https://www.frontendmentor.io?ref=challenge"
