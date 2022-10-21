@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "@nuxt/image-edge": "^1.0.0-27769790.4b27db3",
-    "@nuxtjs/tailwindcss": "^5.3.3",
+    "@nuxtjs/tailwindcss": "^6.0.1",
     "@vueuse/core": "^9.2.0",
     "@vueuse/nuxt": "^9.3.1",
     "install-types": "^2.0.1",
