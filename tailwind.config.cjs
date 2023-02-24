@@ -15,11 +15,8 @@ module.exports = {
         "footer-content": "#2c7566",
       },
       fontFamily: {
-        sans: "'Barlow', sans-serif",
-        serif: "'Fraunces', sans-serif",
-      },
-      margin: {
-        "50rem": "50rem",
+        sans: "Barlow",
+        serif: "Fraunces",
       },
     },
   },

@@ -8,11 +8,17 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxt/image-edge": "^1.0.0-27821548.ab054e4",
-    "@nuxtjs/tailwindcss": "^6.1.3",
-    "@vueuse/core": "^9.6.0",
-    "@vueuse/nuxt": "^9.6.0",
-    "install-types": "^2.0.1",
-    "nuxt": "npm:nuxt3@latest"
+    "@nuxt/image-edge": "1.0.0-27952794.567c688",
+    "@nuxtjs/tailwindcss": "^6.4.1",
+    "@vueuse/core": "^9.13.0",
+    "@vueuse/nuxt": "^9.13.0",
+    "nuxt": "3.2.2",
+    "nuxt-fonty": "^1.0.0"
+  },
+  "optionalDependencies": {
+    "@types/node": "^18.14.1"
+  },
+  "dependencies": {
+    "bootstrap-icons": "^1.10.3"
   }
 }

@@ -1,17 +1,30 @@
-<script setup>
-useHead({
-  htmlAttrs: {
-    lang: "en",
+<script setup lang="ts">
+useFont([
+  {
+    family: "Fraunces",
+    weight: "700",
+    src: "/fonts/fraunces-bold-italic.woff2",
+    display: "swap",
   },
-});
+  {
+    family: "Fraunces",
+    weight: "900",
+    src: "/fonts/fraunces-black-italic.woff2",
+    display: "swap",
+  },
+  {
+    family: "Barlow",
+    weight: "600",
+    src: "/fonts/barlow-semibold.woff2",
+    display: "swap",
+  },
+]);
 </script>
 
 <template>
-  <div class="relative">
-    <Hero />
-    <Grids />
-    <Testimonials />
-    <Gallery />
-    <Footer />
-  </div>
+  <Hero />
+  <Grids />
+  <Testimonials />
+  <Gallery />
+  <Footer />
 </template>
