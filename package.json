@@ -17,8 +17,5 @@
   },
   "optionalDependencies": {
     "@types/node": "^18.14.1"
-  },
-  "dependencies": {
-    "bootstrap-icons": "^1.10.3"
   }
 }
