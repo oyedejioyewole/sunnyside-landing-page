@@ -32,4 +32,7 @@ export default defineNuxtConfig({
   fonty: {
     autoImport: true,
   },
+  nitro: {
+    preset: "vercel-edge",
+  },
 });
