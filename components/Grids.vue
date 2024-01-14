@@ -1,7 +1,7 @@
 <template>
   <section>
     <!-- 1st section -->
-    <div class="grid h-screen lg:h-fit lg:grid-cols-2">
+    <div class="grid min-h-screen lg:h-fit lg:grid-cols-2">
       <!-- Images -->
       <NuxtImg
         alt="An egg"
@@ -45,7 +45,7 @@
     </div>
 
     <!-- 2nd section -->
-    <div class="h-screen lg:grid lg:h-fit lg:grid-cols-2">
+    <div class="min-h-screen lg:grid lg:h-fit lg:grid-cols-2">
       <!-- Images -->
       <NuxtImg
         alt="A pink cup"
