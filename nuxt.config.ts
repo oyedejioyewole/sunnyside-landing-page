@@ -1,21 +1,9 @@
 export default defineNuxtConfig({
-  modules: [
-    "@nuxtjs/tailwindcss",
-    "@nuxt/image-edge",
-    "@vueuse/nuxt",
-    "nuxt-fonty",
-  ],
   app: {
     head: {
-      title: "Sunnyside Landing Page - OyewoleOyedeji",
-      meta: [
-        {
-          name: "description",
-          content:
-            "Frontend Mentor - Sunnyside Landing Page challenge solved by OyewoleOyedeji",
-        },
-      ],
-
+      htmlAttrs: {
+        lang: "en",
+      },
       link: [
         {
           rel: "icon",
@@ -24,15 +12,38 @@ export default defineNuxtConfig({
           href: "/images/favicon-32x32.png",
         },
       ],
-      htmlAttrs: {
-        lang: "en",
+      meta: [
+        {
+          name: "description",
+          content:
+            "Frontend Mentor - Sunnyside Landing Page challenge solved by OyewoleOyedeji",
+        },
+      ],
+      title: "Sunnyside Landing Page - OyewoleOyedeji",
+    },
+  },
+  devtools: { enabled: true },
+  googleFonts: {
+    families: {
+      Barlow: [600],
+      Fraunces: {
+        ital: [700, 900],
       },
     },
   },
-  fonty: {
-    autoImport: true,
-  },
+  modules: [
+    "@nuxt/image",
+    "@nuxtjs/google-fonts",
+    "@nuxtjs/tailwindcss",
+    "nuxt-bootstrap-icons",
+    "nuxt-svgo",
+  ],
   nitro: {
-    preset: "vercel-edge",
+    routeRules: {
+      "/**": { isr: true },
+    },
+  },
+  svgo: {
+    defaultImport: "component",
   },
 });

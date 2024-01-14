@@ -1,60 +1,60 @@
 <template>
   <section class="flex flex-wrap gap-0">
     <NuxtImg
+      alt="Picture of milk-bottles"
+      class="hidden w-1/2 lg:block lg:w-1/4"
       format="webp"
+      loading="lazy"
       src="/images/desktop/image-gallery-milk-bottles.jpg"
-      class="w-1/2 lg:w-1/4 lg:block hidden"
-      alt="Picture of milk-bottles"
-      loading="lazy"
     />
     <NuxtImg
+      alt="Picture of milk-bottles"
+      class="w-1/2 lg:hidden"
       format="webp"
+      loading="lazy"
       src="/images/mobile/image-gallery-milk-bottles.jpg"
-      class="w-1/2 lg:w-1/4 lg:hidden"
-      alt="Picture of milk-bottles"
-      loading="lazy"
     />
     <NuxtImg
+      alt="Picture of orange"
+      class="hidden w-1/2 lg:block lg:w-1/4"
       format="webp"
+      loading="lazy"
       src="/images/desktop/image-gallery-orange.jpg"
-      class="w-1/2 lg:w-1/4 lg:block hidden"
-      alt="Picture of orange"
-      loading="lazy"
     />
     <NuxtImg
+      alt="Picture of orange"
+      class="w-1/2 lg:hidden"
       format="webp"
+      loading="lazy"
       src="/images/mobile/image-gallery-orange.jpg"
-      class="w-1/2 lg:w-1/4 lg:hidden"
-      alt="Picture of orange"
-      loading="lazy"
     />
     <NuxtImg
+      alt="Picture of ice-cream cone"
+      class="hidden w-1/2 lg:block lg:w-1/4"
       format="webp"
+      loading="lazy"
       src="/images/desktop/image-gallery-cone.jpg"
-      class="w-1/2 lg:w-1/4 lg:block hidden"
-      alt="Picture of ice-cream cone"
-      loading="lazy"
     />
     <NuxtImg
+      alt="Picture of ice-cream cone"
+      class="w-1/2 lg:hidden"
       format="webp"
+      loading="lazy"
       src="/images/mobile/image-gallery-cone.jpg"
-      class="w-1/2 lg:w-1/4 lg:hidden"
-      alt="Picture of ice-cream cone"
-      loading="lazy"
     />
     <NuxtImg
+      alt="Picture of sugar-cubes"
+      class="hidden w-1/2 lg:block lg:w-1/4"
       format="webp"
+      loading="lazy"
       src="/images/desktop/image-gallery-sugar-cubes.jpg"
-      class="w-1/2 lg:w-1/4 lg:block hidden"
-      alt="Picture of sugar-cubes"
-      loading="lazy"
     />
     <NuxtImg
-      format="webp"
-      src="/images/mobile/image-gallery-sugar-cubes.jpg"
-      class="w-1/2 lg:w-1/4 lg:hidden"
       alt="Picture of sugar-cubes"
+      class="w-1/2 lg:hidden"
+      format="webp"
       loading="lazy"
+      src="/images/mobile/image-gallery-sugar-cubes.jpg"
     />
   </section>
 </template>

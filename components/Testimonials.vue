@@ -1,70 +1,92 @@
 <template>
-  <section class="flex flex-col justify-center min-h-screen items-center">
+  <section
+    class="mx-auto grid min-h-screen w-[90%] place-items-center gap-y-20 py-24"
+  >
+    <!-- Heading -->
     <h1
-      class="uppercase font-serif text-grayish-blue text-2xl md:text-3xl text-center md:text-left 2xl:text-5xl py-16"
+      class="text-center font-serif text-2xl uppercase text-grayish-blue md:text-left md:text-3xl 2xl:text-5xl"
     >
       Client Testimonials
     </h1>
-    <div
-      class="flex flex-col justify-center items-center lg:flex-row gap-5 2xl:gap-16 lg:p-10 2xl:p-36 pb-16"
-    >
-      <div class="w-1/3">
+
+    <!-- Testimonials -->
+    <div class="grid gap-x-10 gap-y-20 lg:grid-cols-3">
+      <!-- Emily R. -->
+      <div class="grid place-items-center gap-y-10">
+        <!-- Profile picture -->
         <NuxtImg
-          format="webp"
-          src="/images/image-emily.jpg"
-          class="rounded-full w-28 md:w-32 mx-auto mb-10"
           alt="Emily R."
+          class="w-28 rounded-full md:w-32"
+          format="webp"
+          loading="lazy"
+          src="/images/image-emily.jpg"
         />
-        <p class="text-lg md:text-xl text-very-dark-grayish-blue text-center">
+
+        <!-- Testimonial -->
+        <p class="text-center text-lg text-very-dark-grayish-blue md:text-xl">
           We put our trust in Sunnyside and they delivered, making sure our
           needs were met and deadlines were always hit.
         </p>
-        <h2 class="text-center font-serif text-lg md:text-xl mt-10">
-          Emily R.
-        </h2>
-        <h3
-          class="text-lg md:text-xl text-dark-grayish-blue text-center mb-10 lg:mb-0"
-        >
-          Marketing Director
-        </h3>
+
+        <!-- Details -->
+        <div class="space-y-2 text-center">
+          <h2 class="font-serif text-lg md:text-xl">Emily R.</h2>
+          <h3 class="text-lg text-dark-grayish-blue md:text-xl lg:mb-0">
+            Marketing Director
+          </h3>
+        </div>
       </div>
-      <div class="w-1/3">
+
+      <!-- Thomas S. -->
+      <div class="grid place-items-center gap-y-10">
+        <!-- Profile picture -->
         <NuxtImg
-          format="webp"
-          src="/images/image-thomas.jpg"
-          class="rounded-full w-28 md:w-32 mx-auto mb-10"
           alt="Thomas S."
+          class="w-28 rounded-full md:w-32"
+          format="webp"
+          loading="lazy"
+          src="/images/image-thomas.jpg"
         />
-        <p class="text-lg md:text-xl text-very-dark-grayish-blue text-center">
+
+        <!-- Testimonial -->
+        <p class="text-center text-lg text-very-dark-grayish-blue md:text-xl">
           Sunnyside’s enthusiasm coupled with their keen interest in our brand’s
           success made it a satisfying and enjoyable experience.
         </p>
-        <h2 class="text-center font-serif text-lg md:text-xl mt-10">
-          Thomas S.
-        </h2>
-        <h3
-          class="text-lg md:text-xl text-dark-grayish-blue text-center mb-10 lg:mb-0"
-        >
-          Chief Operating Officer
-        </h3>
+
+        <!-- Details -->
+        <div class="space-y-2 text-center">
+          <h2 class="font-serif text-lg md:text-xl">Thomas S.</h2>
+          <h3 class="text-lg text-dark-grayish-blue md:text-xl lg:mb-0">
+            Chief Operating Officer
+          </h3>
+        </div>
       </div>
-      <div class="w-1/3">
+
+      <!-- Jennie F. -->
+      <div class="grid place-items-center gap-y-10">
+        <!-- Profile picture -->
         <NuxtImg
-          format="webp"
-          src="/images/image-jennie.jpg"
-          class="rounded-full w-28 md:w-32 mx-auto mb-10"
           alt="Jennie F."
+          class="w-28 rounded-full md:w-32"
+          format="webp"
+          loading="lazy"
+          src="/images/image-jennie.jpg"
         />
-        <p class="text-lg md:text-xl text-very-dark-grayish-blue text-center">
+
+        <!-- Testimonial -->
+        <p class="text-center text-lg text-very-dark-grayish-blue md:text-xl">
           Incredible end result! Our sales increased over 400% when we worked
           with Sunnyside. Highly recommended!
         </p>
-        <h2 class="text-center font-serif text-lg md:text-xl mt-10">
-          Jennie F.
-        </h2>
-        <h3 class="text-lg md:text-xl text-dark-grayish-blue text-center">
-          Business Owner
-        </h3>
+
+        <!-- Details -->
+        <div class="space-y-3 text-center">
+          <h2 class="font-serif text-lg md:text-xl">Jennie F.</h2>
+          <h3 class="text-lg text-dark-grayish-blue md:text-xl">
+            Business Owner
+          </h3>
+        </div>
       </div>
     </div>
   </section>

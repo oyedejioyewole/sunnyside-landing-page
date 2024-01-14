@@ -1,100 +1,126 @@
 <template>
   <section>
-    <div class="flex items-center flex-col lg:flex-row">
-      <div class="w-1/2 py-16 lg:py-0 lg:px-10 2xl:p-48">
+    <!-- 1st section -->
+    <div class="grid h-screen lg:h-fit lg:grid-cols-2">
+      <!-- Images -->
+      <NuxtImg
+        alt="An egg"
+        class="order-last hidden lg:block lg:w-full"
+        format="webp"
+        loading="lazy"
+        src="/images/desktop/image-transform.jpg"
+      />
+      <NuxtImg
+        alt="An egg"
+        class="w-full lg:hidden"
+        format="webp"
+        loading="lazy"
+        src="/images/mobile/image-transform.jpg"
+      />
+
+      <div class="grid place-content-center space-y-10 px-10 py-16 2xl:p-48">
+        <!-- Heading -->
         <h1
-          class="font-serif text-4xl md:text-5xl text-center lg:text-7xl lg:text-left text-very-dark-desaturated-blue mb-14"
+          class="text-center font-serif text-4xl text-very-dark-desaturated-blue md:text-5xl lg:text-left lg:text-7xl"
         >
-          Transform your
-          <div>brand</div>
+          Transform your brand
         </h1>
+
+        <!-- Copy -->
         <p
-          class="text-lg md:text-xl text-very-dark-grayish-blue mb-16 text-center lg:text-left"
+          class="text-center text-lg text-very-dark-grayish-blue md:text-xl lg:text-left"
         >
           We are a full-service creative agency specializing in helping brands
           grow fast. Engage your clients through compelling visuals that do most
           of the marketing for you.
         </p>
+
+        <!-- Learn more -->
         <a
+          class="relative mx-auto font-serif text-xl uppercase before:absolute before:-left-2 before:bottom-1 before:-z-10 before:h-3 before:w-[152px] before:rounded-md before:bg-[#fad400] before:bg-opacity-40 before:transition before:hover:bg-opacity-80 md:text-2xl md:before:w-44 lg:mx-0"
           href="#"
-          class="uppercase text-xl md:text-2xl font-serif lg:block flex mx-auto lg:mx-0 relative before:content-[''] before:absolute before:bottom-1 before:-left-2 before:h-3 before:bg-[#fad400] before:opacity-40 before:transition before:-z-10 md:before:w-44 before:w-[152px] before:rounded-md before:hover:opacity-80 w-fit"
           >Learn more</a
         >
       </div>
-      <NuxtImg
-        format="webp"
-        src="/images/desktop/image-transform.jpg"
-        class="order-first lg:order-last w-full lg:w-1/2 lg:block hidden"
-        alt="An egg"
-      />
-      <NuxtImg
-        format="webp"
-        src="/images/mobile/image-transform.jpg"
-        class="order-first lg:order-last w-full lg:w-1/2 lg:hidden"
-        alt="An egg"
-      />
     </div>
-    <div class="flex flex-col lg:flex-row items-center">
+
+    <!-- 2nd section -->
+    <div class="h-screen lg:grid lg:h-fit lg:grid-cols-2">
+      <!-- Images -->
       <NuxtImg
+        alt="A pink cup"
+        class="hidden lg:block lg:w-full"
         format="webp"
+        loading="lazy"
         src="/images/desktop/image-stand-out.jpg"
-        class="w-full lg:w-1/2 lg:block hidden"
-        alt="A pink cup"
       />
       <NuxtImg
-        format="webp"
-        src="/images/mobile/image-stand-out.jpg"
-        class="w-full lg:w-1/2 lg:hidden"
         alt="A pink cup"
+        class="w-full lg:hidden"
+        format="webp"
+        loading="lazy"
+        src="/images/mobile/image-stand-out.jpg"
       />
-      <div class="w-1/2 py-16 lg:py-0 lg:px-10 2xl:p-48">
+
+      <div class="grid place-content-center space-y-10 px-10 py-16 2xl:p-48">
+        <!-- Heading -->
         <h1
-          class="font-serif text-4xl md:text-5xl text-center lg:text-7xl lg:text-left text-very-dark-desaturated-blue mb-14"
+          class="text-center font-serif text-4xl text-very-dark-desaturated-blue md:text-5xl lg:text-left lg:text-7xl"
         >
-          Stand out to the right
-          <div>audience</div>
+          Stand out to the right audience
         </h1>
+
+        <!-- Copy -->
         <p
-          class="text-lg md:text-xl text-center lg:text-left text-very-dark-grayish-blue mb-16"
+          class="text-center text-lg text-very-dark-grayish-blue md:text-xl lg:text-left"
         >
           Using a collaborative formula of designers, researchers,
-          photographers, videographers, and copywriters, we’ll build and extend
+          photographers, videographers, and copywriters, we'll build and extend
           your brand in digital places.
         </p>
+
+        <!-- Learn more -->
         <a
+          class="relative mx-auto font-serif text-xl uppercase before:absolute before:-left-2 before:bottom-1 before:-z-10 before:h-3 before:w-[152px] before:rounded-md before:bg-[#fe7867] before:bg-opacity-40 before:transition before:hover:bg-opacity-80 md:text-2xl md:before:w-44 lg:mx-0"
           href="#"
-          class="uppercase text-xl md:text-2xl font-serif flex mx-auto lg:mx-0 lg:block relative before:content-[''] before:absolute before:bottom-1 before:-left-2 before:h-3 before:bg-[#fe7867] before:opacity-40 before:transition before:-z-10 md:before:w-44 before:w-[152px] before:rounded-md before:hover:opacity-80 w-fit"
           >Learn more</a
         >
       </div>
     </div>
-    <div class="flex flex-col lg:flex-row">
+
+    <!-- Split section -->
+    <div class="grid h-screen lg:grid-cols-2">
+      <!-- 1st section -->
       <div
-        class="w-full lg:w-1/2 bg-[url('/images/mobile/image-graphic-design.jpg')] md:bg-[url('/images/desktop/image-graphic-design.jpg')] bg-no-repeat bg-cover bg-center"
+        class="flex flex-col justify-end gap-y-5 bg-[url('/images/mobile/image-graphic-design.jpg')] bg-cover bg-center bg-no-repeat object-center px-10 py-12 md:bg-[url('/images/desktop/image-graphic-design.jpg')]"
       >
+        <!-- Heading -->
         <h1
-          class="text-4xl md:text-5xl 2xl:text-6xl font-serif text-center text-dark-desaturated-cyan mb-14 2xl:mt-[50rem] mt-[27rem]"
+          class="text-center font-serif text-4xl text-dark-desaturated-cyan md:text-5xl 2xl:text-6xl"
         >
           Graphic Design
         </h1>
-        <p
-          class="text-xl text-center text-very-dark-desaturated-blue md:px-10 2xl:px-20 px-5 pb-36"
-        >
+
+        <!-- Copy -->
+        <p class="text-center text-xl text-very-dark-desaturated-blue">
           Great design makes you memorable. We deliver artwork that underscores
-          your brand message and captures potential clients’ attention.
+          your brand message and captures potential clients' attention.
         </p>
       </div>
+
+      <!-- 2nd section -->
       <div
-        class="w-full lg:w-1/2 bg-[url('/images/mobile/image-photography.jpg')] md:bg-[url('/images/desktop/image-photography.jpg')] bg-no-repeat bg-cover bg-center py-40 lg:py-0"
+        class="flex flex-col justify-end gap-y-5 bg-[url('/images/mobile/image-photography.jpg')] bg-cover bg-center bg-no-repeat object-center px-10 py-12 md:bg-[url('/images/desktop/image-photography.jpg')]"
       >
+        <!-- Heading -->
         <h1
-          class="text-4xl md:text-5xl 2xl:text-6xl font-serif text-center text-dark-desaturated-cyan mb-14 2xl:mt-[50rem] mt-[27rem]"
+          class="text-center font-serif text-4xl text-dark-desaturated-cyan md:text-5xl 2xl:text-6xl"
         >
           Photography
         </h1>
-        <p
-          class="text-xl text-center text-very-dark-desaturated-blue md:px-10 2xl:px-20 px-5"
-        >
+
+        <!-- Copy -->
+        <p class="text-center text-xl text-very-dark-desaturated-blue">
           Increase your credibility by getting the most stunning, high-quality
           photos that improve your business image.
         </p>

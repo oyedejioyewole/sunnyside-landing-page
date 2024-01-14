@@ -1,5 +1,6 @@
-/** @type {import('tailwindcss').Config} */
-module.exports = {
+import type { Config } from "tailwindcss";
+
+export default {
   content: [],
   theme: {
     extend: {
@@ -15,10 +16,10 @@ module.exports = {
         "footer-content": "#2c7566",
       },
       fontFamily: {
-        sans: "Barlow",
-        serif: "Fraunces",
+        sans: "Barlow, sans",
+        serif: "Fraunces, sans-serif",
       },
     },
   },
   plugins: [],
-};
+} satisfies Config;
